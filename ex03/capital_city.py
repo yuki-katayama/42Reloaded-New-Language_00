@@ -14,7 +14,7 @@ def main():
 	    "CO": "Denver"
     }
 
-    if(len(sys.argv) >= 3):
+    if(len(sys.argv) != 2):
         sys.exit()
     try:
         output = capital_cities[states[sys.argv[1]]]
